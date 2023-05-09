@@ -21,6 +21,7 @@ body{
   .topnav {
     overflow: hidden;
     background-color: #333;
+    border-radius: 15px;
    
   }
   
@@ -38,11 +39,11 @@ body{
     background-color: #14911e;
     color: black;
   }
-  
-  .topnav a.active {
-    background-color: #a71400;
-    color: white;
-  }
+  .topnav a.active{
+  background-color: #a71400;
+  color: white;
+}
+
 header{
     background-color: var(--assistant-color);
     padding: 1rem;
@@ -214,6 +215,11 @@ footer ul li {
     display: inline;
     margin-right: 1rem;
 }
+footer a{
+  color: rgb(139, 19, 19);
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+}
 
 footer ul li {
     color: #2066a0;
@@ -230,10 +236,14 @@ footer small{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 750px;
   position: relative;
   margin: auto;
+  border-radius: 5px;
+  border-style:hidden;
+  border-color: #ffffff;
 }
+
 
 /* Hide the images by default */
 .mySlides {
@@ -244,7 +254,7 @@ footer small{
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 190px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -264,7 +274,7 @@ footer small{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(168, 168, 168, 0.521);
 }
 
 /* Caption text */
@@ -293,14 +303,14 @@ footer small{
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #ffffff;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #ec1212;
 }
 
 /* Fading animation */
@@ -313,3 +323,23 @@ footer small{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.colors{
+  margin-left: 30%;
+}
+
+.border{
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #111;
+}
+
+.renk{
+  margin-left: 37%;
+}
+.renk h2{
+  color: white;
+}
+
+
+

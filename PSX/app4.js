@@ -1,6 +1,3 @@
-
-
-
   const form= document.getElementById('form')
   const search= document.getElementById('search')
   const main= document.getElementById('main')
@@ -12,7 +9,11 @@
     }, 1500); // 1.5 saniye
   });
 
-    
+  function bgChange(bg) {
+    const mainDiv = document.querySelector('.main');
+    mainDiv.style.background = bg;
+  };
+
    
   let slideIndex = 1;
   showSlides(slideIndex);
@@ -42,3 +43,12 @@
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
   }
+
+
+
+
+
+ 
+  
+  
+  
