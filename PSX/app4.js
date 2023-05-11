@@ -6,7 +6,7 @@
   window.addEventListener('load', function() {
     setTimeout(function() {
       document.getElementById('loading').style.visibility = 'hidden';
-    }, 1500); // 1.5 saniye
+    }, 2200); // 1.5 saniye
   });
 
   function bgChange(bg) {
